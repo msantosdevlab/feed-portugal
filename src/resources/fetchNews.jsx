@@ -6,7 +6,8 @@ const apikey_2 = "eb6a4934fa67a033c3392a9ee125ee9c";
 export const fetchNews = async (category, setter) => {
   // Nomes chaves
   const cacheKey = `news_${category}`;
-
+  const actualData = JSON.parse(sessionStorage.getItem(cacheKey));
+  
   // 6 horas em milissegundos
   const minTime = 4 * 60 * 60 * 1000;
 
@@ -15,7 +16,7 @@ export const fetchNews = async (category, setter) => {
 
   // Verifica se o tempo desde a última busca é menor que o tempo mínimo
   const lastFetchTime = Cookies.get(`lastFetch_${category}`) || 0;
-  if (currentTime - lastFetchTime < minTime) {
+  if ((actualData) && (currentTime - lastFetchTime < minTime)) {
     updateVar(category, setter);
     console.log("Não passou tempo");
     return; // Evita fazer uma nova solicitação dentro do intervalo mínimo

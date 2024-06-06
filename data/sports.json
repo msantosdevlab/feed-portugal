@@ -1,0 +1,128 @@
+// 20240428232058
+// https://gnews.io/api/v4/top-headlines?category=sports&lang=pt&country=pt&max=100&apikey=8c9e035facc97649a3223645927e5fb3
+
+{
+  "totalArticles": 66109,
+  "articles": [
+    {
+      "title": "Marítimo responde a jogadora do Sporting: \"Não se confunda deterioração com limpeza\"",
+      "description": "Clube emitiu um comunicado em resposta ao vídeo publicado por Andrea Norheim, jogadora do Sporting, que denunciava a falta de condições do balneári...",
+      "content": "Clube emitiu um comunicado em resposta ao vídeo publicado por Andrea Norheim, jogadora do Sporting, que denunciava a falta de condições do balneário do Estádio da Imaculada Conceição\nApós a denúncia feita por uma jogadora do Sporting em relação às co... [1885 chars]",
+      "url": "https://www.abola.pt/futebol/noticias/maritimo-responde-a-jogadora-do-sporting-nao-se-confunda-deterioracao-com-limpeza-2024042818505588451",
+      "image": "https://sportal365images.com/process/smp-images-production/abola.pt/28042024/528eb47c-a2ec-40ad-81ea-7f1a9902948b.jpg?operations=fit(1200:)",
+      "publishedAt": "2024-04-28T18:50:55Z",
+      "source": {
+        "name": "A Bola",
+        "url": "https://www.abola.pt"
+      }
+    },
+    {
+      "title": "FC Porto conquista Taça de Portugal",
+      "description": "Dragões venceram o OC Barcelos por 3-2 e alcançaram a 19.ª Taça de Portugal do seu historial",
+      "content": "Dragões venceram o OC Barcelos por 3-2 e alcançaram a 19.ª Taça de Portugal do seu historial\nO FC Porto reconquistou a Taça de Portugal de hóquei em patins, este domingo, ao vencer na final da competição o Óquei Barcelos, por 3-2, em jogo realizado n... [1853 chars]",
+      "url": "https://www.abola.pt/modalidades/noticias/fc-porto-conquista-taca-de-portugal-2024042816460847339",
+      "image": "https://sportal365images.com/process/smp-images-production/abola.pt/28042024/4dea60bb-6291-49c4-9b42-13470d057df4.jpg?operations=fit(1200:)",
+      "publishedAt": "2024-04-28T16:46:07Z",
+      "source": {
+        "name": "A Bola",
+        "url": "https://www.abola.pt"
+      }
+    },
+    {
+      "title": "Atleta de 43 anos morre na maratona de Aveiro",
+      "description": "Prova contou com milhares de participantes",
+      "content": "Prova contou com milhares de participantes\nUm atleta de 43 anos sofreu uma paragem cardiorrespiratória durante a Maratona de Aveiro.\nSegundo uma fonte da Câmara de Aveiro com quem a Lusa contactou, o incidente ocorreu ao quilómetro 33. O português, r... [733 chars]",
+      "url": "https://www.abola.pt/mais-desporto/noticias/atleta-de-43-anos-morre-na-maratona-de-aveiro-2024042814062727365",
+      "image": "https://sportal365images.com/process/smp-images-production/abola.pt/28042024/80a9c280-d122-4cf3-b39b-4b4748d94a4e.jpg?operations=fit(1200:)",
+      "publishedAt": "2024-04-28T14:26:00Z",
+      "source": {
+        "name": "A Bola",
+        "url": "https://www.abola.pt"
+      }
+    },
+    {
+      "title": "\"Fomos roubadas\": Treinadora do Chelsea arrasa \"pior decisão de arbitragem de sempre\"",
+      "description": "Emma Hayes diz que Chelsea foi impedido de chegar à final da Champions feminina",
+      "content": "Emma Hayes diz que Chelsea foi impedido de chegar à final da Champions feminina\nPolémica depois da vitória do Barcelona sobre o Chelsea, por 2-0, na segunda mão das meias-finais da Liga dos Campeões feminina, que deu reviravolta às catalãs e confirmo... [1762 chars]",
+      "url": "https://www.abola.pt/futebol/noticias/fomos-roubadas-treinadora-do-chelsea-arrasa-pior-decisao-de-arbitragem-de-sempre-2024042809334455600",
+      "image": "https://sportal365images.com/process/smp-images-production/abola.pt/28042024/555c6464-bc8c-46bb-98b3-a022862e064e.jpg?operations=fit(1200:)",
+      "publishedAt": "2024-04-28T09:33:44Z",
+      "source": {
+        "name": "A Bola",
+        "url": "https://www.abola.pt"
+      }
+    },
+    {
+      "title": "MÁS NOTÍCIAS PARA HIDEMASA MORITA: MÉDIO DO SPORTING VAI TER (NOVAMENTE) DE….",
+      "description": "Hidemasa Morita, jogador do Sporting, passa por situação 'conturbada' de leão ao peito e tal tem sido crucial na sua faceta no plantel",
+      "content": "Hidemasa Morita, médio do Sporting, vai partir, novamente na condição de suplente no embate desta noite, frente ao Porto. O futebolista que, a par de toda a comitiva, chegou a Gaia no passado sábado, surgiu com uma proteção no braço, o que fará com q... [1622 chars]",
+      "url": "https://leonino.pt/mas-noticias-para-hidemasa-morita-medio-do-sporting-vai-ter-novamente-de/",
+      "image": "https://leonino.pt/wp-content/uploads/2024/04/hidemasa-morita-sporting.webp",
+      "publishedAt": "2024-04-28T06:00:00Z",
+      "source": {
+        "name": "Leonino",
+        "url": "https://leonino.pt"
+      }
+    },
+    {
+      "title": "Bilhetes para a recepção ao Portimonense SC a partir de segunda-feira",
+      "description": "O Sporting Clube de Portugal informa que se inicia às 10h00 desta segunda-feira, 29 de Abril, a venda de bilhetes para a recepção da equipa principal de futebol ao Portimonense SC, marcada para as 18h00 de sábado, 4 de Maio, no Estádio José Alvalade. A venda é exclusiva a Sócios nas primeiras 48 horas (até às 10h00 de quarta-feira, 1 de Maio) e com ingressos a partir de €15,",
+      "content": "Ingressos exclusivos para Sócios nas primeiras 48 horas\nO Sporting Clube de Portugal informa que se inicia às 10h00 desta segunda-feira, 29 de Abril, a venda de bilhetes para a recepção da equipa principal de futebol ao Portimonense SC, marcada para ... [269 chars]",
+      "url": "https://www.sporting.pt/pt/noticias/futebol/equipa-principal/2024-04-28/bilhetes-para-a-recepcao-ao-portimonense-sc-a-partir-de",
+      "image": "https://scpconteudos.pt/sites/default/files/noticias/202404/jl4_0547-min_0_0.jpg",
+      "publishedAt": "2024-04-28T00:00:35Z",
+      "source": {
+        "name": "Sporting Clube de Portugal",
+        "url": "https://www.sporting.pt"
+      }
+    },
+    {
+      "title": "André Villas-Boas pode terminar ligação com Sérgio Conceição a custo zero",
+      "description": "Sérgio Conceição pode sair do FC Porto a custo zero, após a eleição de André Villas-Boas. O novo contrato assinado pode ser anulado.",
+      "content": "Sérgio Conceição pode sair do FC Porto a custo zero, após a eleição de André Villas-Boas. O novo contrato assinado pode ser anulado com acordo mútuo.\nAndré Villas-Boas vai agora decidir o futuro de Sérgio Conceição e pode terminar a ligação com o téc... [1847 chars]",
+      "url": "https://bolanarede.pt/especial-bola-na-rede/ultima-hora/andre-villas-boas-pode-terminar-ligacao-com-sergio-conceicao-a-custo-zero/",
+      "image": "https://bolanarede.pt/wp-content/uploads/2024/02/Sergio-Conceicao5.jpg",
+      "publishedAt": "2024-04-27T22:14:49Z",
+      "source": {
+        "name": "Bola na Rede",
+        "url": "https://bolanarede.pt"
+      }
+    },
+    {
+      "title": "42 anos e mais de 1.300 títulos depois, Pinto da Costa sai de cena",
+      "description": "Momento histórico no FC Porto e no desporto nacional: Jorge Nuno Pinto da Costa já não é presidente dos dragões e, após 15 mandatos, dá o lugar o A...",
+      "content": "Momento histórico no FC Porto e no desporto nacional: Jorge Nuno Pinto da Costa já não é presidente dos dragões e, após 15 mandatos, dá o lugar o André Villas-Boas\n42 anos depois, Jorge Nuno Pinto da Costa vai deixar de ser presidente do FC Porto, se... [1920 chars]",
+      "url": "https://www.abola.pt/futebol/noticias/42-anos-e-mais-de-1300-titulos-depois-pinto-da-costa-sai-de-cena-2024042721543612859",
+      "image": "https://sportal365images.com/process/smp-images-production/abola.pt/27042024/04dbe4c4-5e1e-4c7a-b4f6-52d218975df4.jpg?operations=fit(1200:)",
+      "publishedAt": "2024-04-27T21:54:36Z",
+      "source": {
+        "name": "A Bola",
+        "url": "https://www.abola.pt"
+      }
+    },
+    {
+      "title": "A análise de Duarte Gomes à arbitragem do Benfica-SC Braga: Otamendi devia ter sido expulso",
+      "description": "Um erro em lance difícil de analisar",
+      "content": "Um erro em lance difícil de analisar\nJoão Pinheiro viajou até Lisboa para dirigir o Benfica-SC Braga, que se jogou no Estádio da Luz.\nSegue análise técnica aos lances mais relevantes do encontro:\n2' Niakaté, na rotação após interceção legal, pisou in... [3446 chars]",
+      "url": "https://www.abola.pt/futebol/noticias/a-analise-de-duarte-gomes-a-arbitragem-do-benfica-sc-braga-otamendi-devia-ter-sido-expulso-2024042716073311208",
+      "image": "https://sportal365images.com/process/smp-images-production/abola.pt/27042024/22248032-059e-4a7d-ac5a-32fc5fa88b71.jpg?operations=fit(1200:)",
+      "publishedAt": "2024-04-27T19:52:00Z",
+      "source": {
+        "name": "A Bola",
+        "url": "https://www.abola.pt"
+      }
+    },
+    {
+      "title": "André Villas-Boas reunido \"em sala privada\" da sede de campanha",
+      "description": "O candidato à presidência do FC Porto pela Lista B, André Villas-Boas, está concentrado numa sala privada da sua sede de candidatura, rodeada de apertadas medidas de segurança, a pouco menos de uma hora do fecho previsto das urnas.",
+      "content": "A presença do candidato foi confirmada por elementos da sua equipa, com a indicação de que estaria a acompanhar o processo eleitoral, juntamente com elementos afetos à sua lista, numa \"sala privada\" no primeiro andar da sua sede de candidatura, na Av... [1024 chars]",
+      "url": "https://www.noticiasaominuto.com/desporto/2549552/andre-villas-boas-reunido-em-sala-privada-da-sede-de-campanha",
+      "image": "https://media-manager.noticiasaominuto.com/1280/42725596.jpg?crop_params=eyJwb3J0cmFpdCI6eyJjcm9wV2lkdGgiOjc2OCwiY3JvcEhlaWdodCI6MTM2NiwiY3JvcFgiOjE1MDMsImNyb3BZIjo0fX0=",
+      "publishedAt": "2024-04-27T19:25:15Z",
+      "source": {
+        "name": "Notícias ao Minuto",
+        "url": "https://www.noticiasaominuto.com"
+      }
+    }
+  ]
+}

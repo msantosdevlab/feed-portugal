@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+:root {
+  --color-red: #cb2e26;
+  --color-green: #006101;
+  --color-yellow: #fcea2b;
+  --color-blue: #1e50a0;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-pink: #c0044c;
+  --color-orange: #dd5405;
+  --color-green-dark: #025514;
+  --color-blue-dark: #022655;
+  --color-purple: #7e026d;
+  --color-green-light: #04af76;
+  --bg-section: #f1f1f1;
+  --bg-grey: #292929;
+  --font-league: "League Spartan", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 5px;
+  display: block;
+}
+
+img:hover {
+  transform: scale(1.02);
+  transition: all 0.4s ease;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-block {
+  display: block;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* COLORS TAGS - START */
+.yellow {
+  background-color: var(--color-yellow);
+}
+
+.blue {
+  background-color: var(--color-blue);
+}
+.pink {
+  background-color: var(--color-pink);
+}
+
+.orange {
+  background-color: var(--color-orange);
+}
+
+.green-dark {
+  background-color: var(--color-green-dark);
+}
+
+.blue-dark {
+  background-color: var(--color-blue-dark);
+}
+
+.purple {
+  background-color: var(--color-purple);
+}
+
+.green-light {
+  background-color: var(--color-green-light);
+}
+
+.red {
+  background-color: var(--color-red);
+}
+
+/* TAG CATEGORIES */
+.source-name {
+  text-transform: uppercase;
+  padding: 5px 7px;
+  color: var(--color-white);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* TITLE SECTIONS */
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.title-section {
+  font-family: var(--font-league);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.line-title-green {
+  width: 100%;
+  position: relative;
+}
+
+.line-title-green::before {
+  content: "";
+  height: 7px;
+  width: 50px;
+  position: absolute;
+  bottom: -1px;
+  background-color: var(--color-green);
+}
+
+.line-title-green::after {
+  content: "";
+  height: 5px;
+  width: calc(100% - 50px);
+  border-top: 1px solid #e4e3e3;
+  border-bottom: 1px solid #e4e3e3;
+  position: absolute;
+  bottom: -1px;
+  margin-left: 60px;
+}
+
+.line-title-red {
+  width: 100%;
+  position: relative;
+}
+
+.line-title-red::before {
+  content: "";
+  height: 7px;
+  width: 50px;
+  position: absolute;
+  bottom: -1px;
+  background-color: var(--color-red);
+}
+
+.line-title-red::after {
+  content: "";
+  height: 5px;
+  width: calc(100% - 50px);
+  border-top: 1px solid #e4e3e3;
+  border-bottom: 1px solid #e4e3e3;
+  position: absolute;
+  bottom: -1px;
+  margin-left: 60px;
+}
+
+.line-title-yellow {
+  width: 100%;
+  position: relative;
+}
+
+.line-title-yellow::before {
+  content: "";
+  height: 7px;
+  width: 50px;
+  position: absolute;
+  bottom: -1px;
+  background-color: var(--color-yellow);
+}
+
+.line-title-yellow::after {
+  content: "";
+  height: 5px;
+  width: calc(100% - 50px);
+  border-top: 1px solid #e4e3e3;
+  border-bottom: 1px solid #e4e3e3;
+  position: absolute;
+  bottom: -1px;
+  margin-left: 60px;
+}
+
+/* POSTS */
+
+.title-post {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.post-content h2 {
+  font-family: var(--font-league);
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: inherit; /* Garante que o texto herde a cor do elemento pai */
+  display: inline;
+  background-image: linear-gradient(to top, currentColor 0%, currentColor 98%);
+  background-size: 0 2px; /* Inicialmente, o sublinhado tem largura zero */
+  background-repeat: no-repeat; /* Evita a repetição do gradiente */
+  background-position: left 100%;
+  transition: background-size 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.post-content h2:hover {
+  background-size: 100% 2px; /* Expandindo o sublinhado horizontalmente no hover */
+}
+
+.date {
+  font-size: 12px;
+  color: #97979b;
+}
+
+/* COLORS TAGS - END */
+
+/* THEME MODE - DARK/LIGHT */
+
+/* DARK */
+
+.header {
+  border-bottom: 1px solid #b1b1b1;
+}
+
+#dark .header,
+.headline,
+.entretenimento,
+.entretenimento h3,
+.entretenimento .title-post {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+#dark .header .container > .logo {
+  background-image: url(./logo-feed-portugal-dark.svg);
+  width: 320px;
+  min-height: 60px;
+}
+
+#dark .desporto,
+.desporto h3,
+#dark .ultimas,
+#dark .ultimas .title-post {
+  background-color: #141414;
+  color: var(--color-white);
+}
+
+#dark .desporto .title-post {
+  color: var(--color-white);
+}
+
+#dark .ultimas .description {
+  color: #bbbbbb;
+}
+#dark .post-headline .post-content h2 {
+  color: var(--color-white);
+}
+
+#dark .line-title-red::after,
+#dark .line-title-green::after,
+#dark .line-title-yellow::after {
+  border-top: 1px solid #646464 !important;
+  border-bottom: 1px solid #646464 !important;
+}
+
+/* LIGHT */
+#light .header,
+#light .headline,
+#light .entretenimento,
+#light .entretenimento h3,
+#light .entretenimento .title-post {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+#light .post-headline .post-content h2 {
+  color: var(--color-black);
+}
+
+#light .header .container > .logo {
+  background-image: url(./logo-feed-portugal-light.svg);
+  width: 320px;
+  min-height: 60px;
+}
+
+#light .desporto,
+#light .desporto h3,
+#light .ultimas,
+#light .ultimas .title-post {
+  background-color: var(--bg-section);
+  color: var(--color-black);
+}
+
+#light .desporto .title-post {
+  color: var(--color-black);
+}
+
+#light .ultimas .description {
+  color: #4b4b4b;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .posts-entret {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .post-content h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 769px) {
+  .headline {
+    padding: 45px 0;
+  }
+
+  .post-content h2 {
+    font-size: 21px;
+  }
+
+  .col-principal-new {
+    min-height: 450px !important;
+  }
+
+  .headline .container {
+    grid-template-columns: 1fr !important;
+  }
+
+  .col-headline-posts {
+    grid-template-columns: 1fr !important;
+  }
+
+  .post-headline img {
+    object-fit: cover;
+    object-position: left top;
+  }
+
+  .post-headline {
+    display: flex !important;
+  }
+
+  .posts-desporto {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .desporto-posts {
+    grid-template-columns: repeat(2, 1fr) !important;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .posts-entret {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(6, 1fr) !important;
+    gap: 20px;
+  }
+
+  .posts-ultimas .post {
+    margin-bottom: 25px;
+  }
+
+  .posts-ultimas .post-img img {
+    width: 300px;
+  }
+
+  .posts-ultimas .title-post h2 {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 577px) {
+  .header {
+    height: 160px;
+  }
+
+  .header .container {
+    flex-direction: column;
+    height: 90px;
+    margin-top: 15px;
+  }
+
+  .switch {
+    margin: 10px 0;
+  }
+
+  .headline {
+    padding: 40px 0;
+  }
+
+  .post-headline {
+    margin-bottom: 20px;
+    flex-direction: column !important;
+  }
+
+
+  .post-headline img{
+    width: 100% !important;
+  }
+
+  .col-headline-posts {
+    grid-template-columns: 1fr !important;
+  }
+
+  .post img {
+    width: 100% !important;
+  }
+
+
+  .desporto-posts {
+    grid-template-columns: 1fr !important;
+  }
+
+  .posts-entret .post-img img {
+    max-width: 100% !important;
+    height: 250px;
+    object-position: center;
+  }
+
+  .posts-entret .post {
+    flex-direction: column;
+  }
+
+  .posts-entret .post-content h2 {
+    font-size: 21px;
+  }
+
+  .posts-ultimas .post {
+    flex-direction: column;
+  }
+  .posts-ultimas .title-post h2 {
+    font-size: 25px;
+  }
+}

@@ -4,7 +4,7 @@
 
 
 ### Objetivo:
-O projeto Feed Portugal visa desenvolver uma aplicação web que exibe as últimas notícias de Portugal, provenientes de diversas fontes, utilizando a API pública do GNews. A implementação é realizada utilizando a biblioteca React, com o propósito de aprimorar habilidades em requisições HTTP com React.
+O projeto Feed Portugal visa desenvolver uma aplicação web que exibe as últimas notícias de Portugal, provenientes de diversas fontes, utilizando a API pública do GNews. A implementação é realizada utilizando a biblioteca React, com o propósito de aprimorar habilidades em requisições HTTP.
 
 ### Recursos:
 - API: A aplicação faz uso da API do GNews para obter as principais notícias de Portugal.

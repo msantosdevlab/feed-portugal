@@ -15,7 +15,7 @@ const Entretenimento = ({ artigosEntretenimento }) => {
         </div>
 
         <div className="posts-entret">          
-          {artigosEntretenimento.map((item) => {
+          {artigosEntretenimento && artigosEntretenimento.map((item) => {
             if (filterJournal(item)) {
               if(i < 6) {
                 i++;

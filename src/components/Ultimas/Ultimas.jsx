@@ -6,9 +6,6 @@ import { filterJournal } from "../../utils/filterJournal";
 import { formatDate } from "../../utils/formatDate";
 
 
-// let str = "hello";
-// str.split
-
 const Ultimas = ({ artigosGeneral }) => {
   return (
     <section className="ultimas">
@@ -18,7 +15,7 @@ const Ultimas = ({ artigosGeneral }) => {
           <div className="line-title-yellow"></div>
         </div>
         <div className="posts-ultimas">
-          {artigosGeneral.slice(4, 12).map((item) => {
+          {artigosGeneral && artigosGeneral.slice(4, 12).map((item) => {
             if (filterJournal(item)) {
               return (
                 <a href={item.url} target="blank" key={item.publishedAt}>

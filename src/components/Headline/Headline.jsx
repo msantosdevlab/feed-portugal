@@ -11,7 +11,7 @@ const Headline = ({ artigosGeneral }) => {
   return (
     <section className="headline">
       <div className="container d-grid">
-        {artigosGeneral.slice(0, 1).map((item) => (
+        {artigosGeneral && artigosGeneral.slice(0, 1).map((item) => (
           <a
             href={item.url}
             target="blank"
@@ -50,7 +50,7 @@ const Headline = ({ artigosGeneral }) => {
         ))}
 
         <div className="col-headline-posts d-grid">
-          {artigosGeneral.slice(1, 6).map((item) => {
+          {artigosGeneral && artigosGeneral.slice(1, 6).map((item) => {
             if (filterJournal(item)) {
               if(pd < 3){
                 pd++;

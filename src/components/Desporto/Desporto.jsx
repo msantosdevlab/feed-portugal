@@ -15,7 +15,7 @@ const Desporto = ({ artigosDesporto }) => {
         </div>
 
         <div className="posts-desporto">
-            {artigosDesporto.slice(0, 5).map((item) => {
+            {artigosDesporto && artigosDesporto.slice(0, 5).map((item) => {
               if (filterJournal(item)) {
                 if(pd < 4){
                   pd++;

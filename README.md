@@ -29,3 +29,44 @@ Implementação de uma função chamada filterJournal para filtrar apenas os jor
 - React: Utilização de conceitos como fetch, useState, useEffect, createContext, useContext, react-switch, react-icons para o desenvolvimento da aplicação.
 - API: Integração com a API do GNews para obtenção das notícias de Portugal.
 - CSS: Desenvolvimento total do estilo, sem o uso de bibliotecas ou frameworks.
+
+## Instalação
+
+### Pré-requisitos
+
+- Node.js
+- npm (gerenciador de pacotes do Node.js) ou yarn
+
+### Passos para clonar e rodar o projeto
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/msantosdevlab/feed-portugal.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd feed-portugal
+    ```
+
+3. Instale as dependências do projeto:
+    ```bash
+    npm install
+    ```
+    ou
+    ```bash
+    yarn install
+    ```
+
+4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+    ou
+    ```bash
+    yarn dev
+    ```
+
+5. Abra o navegador e aceda ao link fornecido no terminal.
+
+
